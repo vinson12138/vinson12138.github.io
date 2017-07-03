@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="menu" class="scene menu">
+        <button id="btnStart">开始游戏</button>
+        <button id="btnSetting">设置</button>
+        <button id="btnHelp">帮助</button>
+        <button id="btnAbout">关于</button>
+    </div>
+    <div id="game" class="scene game">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="dialog" class="dialog"></div>
+    </div>
+    <div id="setting" class="scene setting">
+        设置界面
+        <form action="">
+            <span>难度</span>
+            <input type="radio" name="gameLevel" id="easy"><label for="easy">简单</label>
+            <input type="radio" name="gameLevel" id="normal"><label for="normal">普通</label>
+            <input type="radio" name="gameLevel" id="hard"><label for="hard">困难</label>
+        </form>
+    </div>
+    <div id="help" class="scene help">
+        帮助界面
+    </div>
+    <div id="about" class="scene about">
+        关于界面
+    </div>
+    <button id="btnBack">返回</button>
+</body>
+<script src="js/require.js" data-main="js/app.js"></script>
+</html>
