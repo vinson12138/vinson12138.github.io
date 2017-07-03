@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    text-align: center;
+}
+
+.scene{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    width: auto;
+    height: auto;
+
+    display: none;
+}
+.menu{
+    display: block;
+    z-index: 100;
+}
+.game{
+
+}
+.setting{
+
+}
+.help{
+
+}
+.about{
+    display: none;
+}
+#btnBack{
+    position: absolute;
+    top:10px;
+    left: 20px;
+
+    z-index: 1000;
+    display: none;
+}
+#gameCanvas{
+    margin-top: 20px;
+    background: #000000;
+    cursor:none;
+}
+.dialog{
+    position: absolute;
+    top:240px;
+    left: 533px;
+
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background: rgba(190, 255, 222, 0.6);
+
+    display: none;
+}
