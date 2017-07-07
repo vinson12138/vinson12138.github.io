@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding: 0;
-
 }
 body{
     text-align: center;
@@ -24,7 +23,7 @@ body{
     z-index: 100;
 }
 .game{
-
+    overflow: hidden;
 }
 .setting{
 
@@ -35,6 +34,7 @@ body{
 .about{
     display: none;
 }
+
 #btnBack{
     position: absolute;
     top:10px;
@@ -44,19 +44,23 @@ body{
     display: none;
 }
 #gameCanvas{
-    margin-top: 20px;
-    background: #000000;
+    /*//margin-top: 20px;*/
+    background: #000;
+    width: auto;
+    height: 100%;
     cursor:none;
 }
+
 .dialog{
     position: absolute;
-    top:240px;
-    left: 533px;
+    top:50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -80px;
 
     width: 300px;
     height: 200px;
     border-radius: 10px;
     background: rgba(190, 255, 222, 0.6);
-
     display: none;
 }
