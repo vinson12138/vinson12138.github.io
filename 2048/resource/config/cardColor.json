@@ -1,0 +1,36 @@
+[
+  {"name":"0", "bgColor":"dfdfdf"},
+  {"name":"2", "bgColor":"cce198"},
+  {"name":"4", "bgColor":"80c269"},
+  {"name":"8", "bgColor":"32b16c"},
+  {"name":"16", "bgColor":"13b5b1"},
+  {"name":"32", "bgColor":"448aca"},
+  {"name":"64", "bgColor":"5f52a0"},
+  {"name":"128", "bgColor":"f88d43"},
+  {"name":"256", "bgColor":"eb6100"},
+  {"name":"512", "bgColor":"ef4630"},
+  {"name":"1024", "bgColor":"e60012"},
+  {"name":"2048", "bgColor":"c00e0e"},
+  {"name":"4096", "bgColor":"a40035"},
+  {"name":"8192", "bgColor":"a4005b"},
+  {"name":"16384", "bgColor":"6a005f"},
+  {"name":"32768", "bgColor":"002e73"}
+
+/*  {"key":"0","value":{"bgColor":"dfdfdf"}},
+  {"key":"2","value":{"bgColor":"cce198"}},
+  {"key":"4","value":{"bgColor":"80c269"}},
+  {"key":"8","value":{"bgColor":"32b16c"}},
+  {"key":"16","value":{"bgColor":"13b5b1"}},
+  {"key":"32","value":{"bgColor":"448aca"}},
+  {"key":"64","value":{"bgColor":"5f52a0"}},
+  {"key":"128","value":{"bgColor":"f88d43"}},
+  {"key":"256","value":{"bgColor":"eb6100"}},
+  {"key":"512","value":{"bgColor":"ef4630"}},
+  {"key":"1024","value":{"bgColor":"e60012"}},
+  {"key":"2048","value":{"bgColor":"c00e0e"}},
+  {"key":"4096","value":{"bgColor":"a40035"}},
+  {"key":"8192","value":{"bgColor":"a4005b"}},
+  {"key":"16384","value":{"bgColor":"6a005f"}},
+  {"key":"32768","value":{"bgColor":"002e73"}}*/
+
+]
